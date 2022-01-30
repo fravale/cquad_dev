@@ -1,0 +1,12 @@
+exportPattern("^[[:alpha:]]+")
+
+# Imported packages/function
+import("stats")
+import("MASS")
+import("plm")
+importFrom("Formula", "Formula")
+
+# S3methods
+S3method(print, cquad)
+S3method(summary, cquad)
+
