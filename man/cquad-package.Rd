@@ -9,14 +9,6 @@
 \description{
 Estimation, based on conditional maximum likelihood, of the quadratic exponential model proposed by Bartolucci & Nigro (2010) and of a simplified and a modified version of this model. The quadratic exponential model is suitable for the analysis of binary longitudinal data when state dependence (further to the effect of the covariates and a time-fixed individual intercept) has to be taken into account. Therefore, this is an alternative to the dynamic logit model having the advantage of easily allowing conditional inference in order to eliminate the individual intercepts and then getting consistent estimates of the parameters of main interest (for the covariates and the lagged response). The simplified version of this model does not distinguish, as the original model does, between the last time occasion and the previous occasions. The modified version formulates in a different way the interaction terms and it may be used to test in a easy way state dependence as shown in Bartolucci, Nigro & Pigini (2018). The package also includes estimation of the dynamic logit model by a pseudo conditional estimator based on the quadratic exponential model, as proposed by Bartolucci & Nigro (2012).}
 
-\details{
-\tabular{ll}{
-Package: \tab cquad\cr
-Type: \tab Package\cr
-Version: \tab 2.0\cr
-Date: \tab 2019-03-26\cr
-License: \tab GPL (>= 2)\cr
-}
 
 }
 \author{
